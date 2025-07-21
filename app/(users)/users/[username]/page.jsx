@@ -4,7 +4,7 @@ const singleProfile = async (props) => {
 
     const res = await fetch("https://api.api-ninjas.com/v1/randomimage", {
         headers: {
-        "X-Api-Key": "jSa5lwJz/oE86IkT7IVOkg==1maox0j7VCWmUONw",
+        "X-Api-Key": process.env.X_Api_Key,
         Accept: "image/jpeg",
         },
         cache: "no-store",
