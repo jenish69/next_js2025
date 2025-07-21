@@ -27,7 +27,7 @@ const DataFetchServer = async (props) => {
   //   console.log("Random :", Math.random());
 
   return (
-    <div className="grid grid-cols-2 gap-3 h-full ">
+    <div className="grid grid-cols-2 gap-3 h-[673px]">
       <div className="h-full flex justify-center items-center ">
         <h2>
           Hii I am 1st component.In Loading.jsx I have to wait but in Suspense I

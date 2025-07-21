@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
 @theme inline {
@@ -16,20 +16,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
 
 body {
-  background: rgb(14, 14, 14);
+  background: rgb(0, 0, 0);
   color: var(--foreground);
   font-family: Urbanist, Helvetica, sans-serif;
   letter-spacing: 0.1rem;
+  padding: 56px 150px 0;
 }
 
 a:hover {
-  color: red;
+  color: rgb(193, 193, 193);
 }
 
 .common_heading {
